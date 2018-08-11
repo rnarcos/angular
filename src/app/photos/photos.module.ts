@@ -6,10 +6,12 @@ import { PhotoComponent } from './photo/photo.component';
 import { PhotoListComponent } from './photo-list/photo-list.component';
 import { PhotoFormComponent } from './photo-form/photo-form.component';
 import { PhotoService } from './photo/photo.service';
+import { PhotosComponent } from './photo-list/photos/photos.component';
 
 @NgModule({
     declarations: [
         PhotoComponent,
+        PhotosComponent,
         PhotoListComponent,
         PhotoFormComponent
     ],
